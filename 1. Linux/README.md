@@ -1,4 +1,8 @@
 # History of Linux
+
+<img width="250" height="297" alt="image" src="https://github.com/user-attachments/assets/25c65c77-bf9b-44fc-978e-8b239072d237" />
+
+
 ## Welcome to the world of Linux!
 If you’re embarking on your Linux journey, understanding the system’s background, distribution options, and structure is your essential first step.
 

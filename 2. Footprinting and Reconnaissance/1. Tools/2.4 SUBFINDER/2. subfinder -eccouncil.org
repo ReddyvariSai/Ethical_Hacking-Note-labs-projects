@@ -1,0 +1,38 @@
+──(kali㉿kali)-[~]
+└─$ subfinder -d eccouncil.org -all
+
+               __    _____           __         
+   _______  __/ /_  / __(_)___  ____/ /__  _____
+  / ___/ / / / __ \/ /_/ / __ \/ __  / _ \/ ___/
+ (__  ) /_/ / /_/ / __/ / / / / /_/ /  __/ /    
+/____/\__,_/_.___/_/ /_/_/ /_/\__,_/\___/_/
+
+                projectdiscovery.io
+
+[INF] Current subfinder version v2.12.0 (latest)
+[INF] Loading provider config from /home/kali/.config/subfinder/provider-config.yaml
+[INF] Enumerating subdomains for eccouncil.org
+store.eccouncil.org
+staging.eccouncil.org
+ciso.eccouncil.org
+coderedmarketing.eccouncil.org
+ferrotechnicsinc.eccouncil.org
+iclass.eccouncil.org
+mct.eccouncil.org
+muscattraininginstitute.eccouncil.org
+pitman.eccouncil.org
+fndtst.eccouncil.org
+aspen.eccouncil.org
+idcybersolutions.eccouncil.org
+mdtechsolutions.eccouncil.org
+membership-backend.eccouncil.org
+sonar.eccouncil.org
+certblog-test.eccouncil.org
+o1.ptr4121.eccouncil.org
+aspen-dev.eccouncil.org
+checkout-us.eccouncil.org
+www.uat-learn.eccouncil.org
+ctfevent.eccouncil.org
+url5264.eccouncil.org
+continuing-education-institute.eccouncil.org
+wissen.eccouncil.org

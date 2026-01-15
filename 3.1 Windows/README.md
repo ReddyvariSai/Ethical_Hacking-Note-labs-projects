@@ -57,7 +57,7 @@ The Brave also has this cool dashboard that shows how many bandwidth and time it
 
 All the mentioned features makes the Brave browser one of the browsers for ethical hackers.
 
-LibreWolf
+# LibreWolf
 
 <img width="363" height="267" alt="image" src="https://github.com/user-attachments/assets/f328fb84-433a-42b7-8850-37a5208dbd94" />
 
@@ -75,7 +75,7 @@ Epic is a browser based on a Chromium, an open-source version of Google Chrome. 
 
 As the browser is private by design, no date is collected. And this makes it one of the best browsers for hackers.
 
-DuckDuckGo
+# DuckDuckGo
 
 
 <img width="300" height="297" alt="image" src="https://github.com/user-attachments/assets/0ad9b62c-bfb9-47ab-bd3f-1681a4ab5ec4" />
@@ -96,7 +96,7 @@ When it comes to browsers, Pale Moon has quite the resume. Pale Moon isn’t sim
 
 However, one security incident related to the Pale Moon browser is worth mentioning. On 10 July 2019, it was discovered that malware had been injected into the executables of the Pale Moon browser’s archive server. On the next day, this vulnerability was identified. The exact date of the initial breach is uncertain.
 
-Chromium
+# Chromium
 
 
 <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/5891b47d-10de-4c28-a7ed-3096299ce5f1" />

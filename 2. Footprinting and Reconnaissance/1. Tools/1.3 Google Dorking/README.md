@@ -11,6 +11,9 @@ https://www.exploit-db.com/google-hacking-database
 
 ```
 
+<img width="1919" height="873" alt="image" src="https://github.com/user-attachments/assets/4f197077-0c7a-498d-9639-9a3aa25ee6e7" />
+
+
 Dorking relies on advanced operators that refine search results far beyond a standard keyword search. These operators allow you to target specific parts of a website or file:
 
 * intitle:: Searches for specific text in the title of a webpage (e.g., intitle:"index of" to find directory listings).

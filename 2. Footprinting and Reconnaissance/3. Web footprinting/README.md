@@ -4,7 +4,7 @@ Web footprinting is a specific subset of reconnaissance focused on gathering as 
 
 Here is a comprehensive breakdown of web footprinting based on the sources:
 
-1. Key Objectives of Web Footprinting
+## 1. Key Objectives of Web Footprinting
 
 The primary goal is to map the target's digital footprint and infrastructure. This includes:
 
@@ -16,7 +16,7 @@ The primary goal is to map the target's digital footprint and infrastructure. Th
 
 • Human Intelligence: Extracting employee names, job roles, and contact information (emails, phone numbers) for social engineering or phishing.
 
-2. Core Techniques and Methods
+## 2. Core Techniques and Methods
 
 Web footprinting is categorized into two main approaches:
 
@@ -24,7 +24,7 @@ Web footprinting is categorized into two main approaches:
 
 • Active Footprinting: Engaging with the target in "normal, innocuous ways" that do not arouse suspicion. This includes visiting the website as a regular user, querying their DNS server, or performing a trace route to the network.
 
-3. Specialized Tools for Web Reconnaissance
+## 3. Specialized Tools for Web Reconnaissance
 
 The sources highlight several automated tools designed to streamline information gathering:
 
@@ -46,7 +46,7 @@ The sources highlight several automated tools designed to streamline information
 
 • Metadata Extraction: Tools like FOCA and Metagoofil scan online documents (PDFs, Office files) to find "data about data," which can reveal usernames, server paths, and software versions.
 
-4. Countermeasures Against Footprinting
+## 4. Countermeasures Against Footprinting
 
 Organizations can minimize their exposure by following these defensive steps:
 

@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Advanced Google Hacking</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="#page-top">
+                    <img src="assets/img/logos/vsb.png" style="width: 150px; height: auto;" alt="Logo" href="index.html" />
+                </a>
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars ms-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#introduction">Introduction</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#methods">Methods</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#examples">Examples</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#protection">Protection</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#history">History</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#video">Video</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#conclusion">Conclusion</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#references">References</a></li>
+                    </ul>                    
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container">
+                <div class="masthead-subheading">Learn more about</div>
+                <div class="masthead-heading text-uppercase">
+                    <span style="color: #4285F4;">G</span><span style="color: #EA4335;">o</span><span style="color: #FBBC05;">o</span><span style="color: #4285F4;">g</span><span style="color: #34A853;">l</span><span style="color: #EA4335;">e</span> HACKING
+                </div>
+                <a class="btn btn-primary btn-xl text-uppercase" href="#introduction">Tell Me More</a>
+            </div>
+        </header>
+        
+        
+        
+        <!-- Services-->
+        <section class="page-section" id="introduction">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Introduction</h2>
+                </div>
+                <div class="text">
+                    <p class="text">
+                        Google Hacking refers to <strong>advanced search techniques</strong> used to retrieve more <strong>precise or hidden information</strong> through Google. Originally intended to enhance <strong>search customization</strong>, it has evolved into a method for identifying <strong>security vulnerabilities</strong> and uncovering <strong>sensitive data</strong> in poorly configured web applications. Rather than hacking Google itself, this approach leverages the search engine's capabilities to expose <strong>critical information</strong> such as passwords or internal files through <strong>targeted queries</strong>. These techniques are often employed by <strong>cybersecurity professionals</strong> to identify and address potential vulnerabilities.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- Portfolio Grid-->
+        <section class="page-section bg-light" id="methods">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Google Hacking Methods</h2>
+                    
+                </div>
+                <div class="text">
+                    <p>
+                        Google as an <strong>indexing and organizing web content</strong> plays a crucial role in the functionality of Google Dorks by making it accessible through specific search queries. Google Dorks enable you to target hidden or restricted content for retrieval, effectively allowing you to access and analyze cache content that might not be readily available. Here are some tips for creating your own querys:
+                    </p>
+                    <h3 class="section-subheading text-muted">Click on the boxes to read more</h3>
+                    
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 1-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/methods/1.webp" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Basic Operators</div>
+                                <div class="portfolio-caption-subheading text-muted">Examples</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 2-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/methods/2.webp" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Advanced Operators</div>
+                                <div class="portfolio-caption-subheading text-muted">Examples</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 3-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/methods/3.webp" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Combining Operators for Targeted Searches</div>
+                                <div class="portfolio-caption-subheading text-muted">Examples</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+        </section>
+
+        <section class="page-section" id="examples">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Google Hacking Examples</h2>
+                    <h3 class="section-subheading text-muted">Learn how to leverage Google operators effectively.</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/examples/1.webp" alt="Password Logs" />
+                            <h4>Exposed Password Logs</h4>
+                            <p class="text-muted">Query: <strong>ext:log inurl:password</strong></p>
+                            <p class="small">Search for log files containing the term "password" in their URLs to identify misconfigured servers.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/examples/2.webp" alt="Open Directories" />
+                            <h4>Open Directories</h4>
+                            <p class="text-muted">Query: <strong>intitle:"index of" inurl:backup filetype:zip</strong></p>
+                            <p class="small">Locate public directories containing backup files in ZIP format to identify potential vulnerabilities.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/examples/3.webp" alt="Confidential PDFs" />
+                            <h4>Confidential PDFs</h4>
+                            <p class="text-muted">Query: <strong>site:example.com filetype:pdf intext:"confidential"</strong></p>
+                            <p class="small">Find sensitive PDFs with the keyword "confidential" on a specific domain.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 mx-auto text-center">
+                        <p class="large text-muted">These examples showcase how to combine Google operators for advanced searches, highlighting the power and potential of this technique. Use responsibly!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+      
+
+
+
+        <section class="page-section bg-light" id="protection">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Protecting Your Website from Google Dorking</h2>
+                    <p class="text-muted">
+                        Learn how to safeguard your website from the risks associated with Google Dorking by implementing essential security measures.
+                    </p>
+                </div>
+
+                <div class="row">
+                    <div >
+                        <h4><strong>Defensive Security Measures</strong></h4>
+                        <p>
+                            Although Google Dorks can expose hidden or sensitive information, it is crucial to learn how to safeguard your website against potential exploitation and vulnerability exposure. Applying robust security measures, such as:
+                        </p>
+                        <ul>
+                            <li>Deploy Web Application Firewalls (WAFs).</li>
+                            <li>Enforce strong authentication on login pages and admin panels.</li>
+                            <li>Limit detailed error messages to prevent information leaks.</li>
+                            <li>Restrict access to sensitive directories, files, and resources.</li>
+                        </ul>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="team-member">
+                                <img class="mx-auto" src="assets/img/protection/robotstxt.webp" alt="Robots.txt" />
+                                <h4>Robots.txt for Access Control</h4>
+                                <p class="text-muted">Use a <code>robots.txt</code> file to restrict indexing of sensitive directories and files:</p>
+                                <p class="small">
+                                    <strong>Example:</strong><br>
+                                    <code>
+            User-agent: *<br>
+            Disallow: /admin/<br>
+            Disallow: /config/<br>
+            Disallow: /backup/
+                                    </code>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="team-member">
+                                <img class="mx-auto" src="assets/img/protection/DisableD.png" alt="Disable Indexing" />
+                                <h4>Disable Directory Indexing</h4>
+                                <p class="text-muted">Prevent listing of directory contents by adding this line to your <code>.htaccess</code> file:</p>
+                                <p class="small">
+                                    <strong>Command:</strong><br>
+                                    <code>Options -Indexes</code>
+                                </p>
+                                <p class="small">This results in a "403 Forbidden" error for unauthorized access attempts.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="team-member">
+                                <img class="mx-auto" src="assets/img/protection/Regular.jpg" alt="Software Updates" />
+                                <h4>Regular Software Updates</h4>
+                                <p class="text-muted">Ensure all software and plugins are up-to-date to reduce vulnerabilities and prevent exploitation.</p>
+                                <p class="small">Regular updates add an extra layer of protection, making it harder for attackers to exploit weaknesses.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-8 mx-auto text-center">
+                            <p class="large text-muted">Combine these measures with encryption, firewalls, and regular audits for comprehensive protection against Google Dorking.</p>
+                        </div>
+                    </div>
+        </section>
+        
+
+
+
+
+
+        <section class="page-section" id="history">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">History of Advanced Google Hacking</h2>
+                    <h3 class="section-subheading text-muted">Key milestones that shaped the use of Google Dorking.</h3>
+                </div>
+                <ul class="timeline">
+                    <li>
+                        <div class="timeline-image">
+                            <img class="rounded-circle img-fluid" src="assets/img/about/1.webp" alt="Google Hacking Database" />
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>2004</h4>
+                                <h4 class="subheading">Creation of the Google Hacking Database (GHDB)</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="text-muted">
+                                    Johnny Long launched the GHDB, a collection of search queries to uncover vulnerabilities and sensitive information online. It became a key resource for ethical hackers and security researchers.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image">
+                            <img class="rounded-circle img-fluid" src="assets/img/about/2.webp" alt="CIA Compromise" />
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>2010</h4>
+                                <h4 class="subheading">Iranian Hackers Compromise CIA Operations</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="text-muted">
+                                    Iranian hackers used Google Dorking to uncover sensitive documents, leading to the exposure of CIA operations and assets. This incident highlighted the critical need for securing online data.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-image">
+                            <img class="rounded-circle img-fluid" src="assets/img/about/3.webp" alt="Automated Google Dorking" />
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>2020</h4>
+                                <h4 class="subheading">Rise of Automated Google Hacking</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="text-muted">
+                                    Tools began automating Google Hacking, enabling mass scans for exposed databases and admin panels. This evolution showcased the scalability of these techniques and their increasing risks.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image">
+                            <h4>
+                                2024 this
+                                <br />
+                                tools are
+                                <br />
+                                even sharper!
+                            </h4>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="page-section bg-light" id="video">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Video of the Practical Lesson</h2>
+                    <h3 class="section-subheading text-muted">Watch the video below to learn practical Google Hacking techniques.</h3>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="video-container" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 15px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);">
+                            <iframe 
+                                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 15px;" 
+                                src="https://www.youtube.com/embed/cFOOjGqGtVk" 
+                                title="Practical Google Hacking Lesson" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                        <p class="text-center mt-3 text-muted">This video demonstrates practical applications of Google Hacking.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="page-section" id="conclusion">
+            <div class="container">
+                <div class="text">
+                    <h2 class="section-heading text-uppercase text-center">Conclusion & Opinion</h2>
+                    <p class="text">
+                        <strong>Conclusion:</strong>
+                        
+                        </p>
+                    <p class="text">
+                        Advanced Google Hacking, or Google Dorking, highlights the immense power of search engines when used with precision and expertise. 
+                        This technique serves as both a <u>valuable tool</u> for ethical hackers and a <u>warning</u> for organizations to secure their online presence. 
+                        By leveraging advanced search queries, we can uncover vulnerabilities, protect sensitive data, and improve overall cybersecurity practices.
+                    </p>
+                    <p class="text">
+                        However, these techniques must always be used with <strong><u>responsibility</u></strong> and <strong><u>ethical awareness</u></strong>. 
+                        The potential to enhance security comes with the risk of misuse, making it crucial for individuals and organizations to take proactive steps in safeguarding their information.
+                    </p>
+                    <p class="text">
+                        <strong>Opinion:</strong>
+                        
+                        </p>
+                    <p class="text">   
+                        Google Dorking showcases the dual nature of technology—its ability to enhance our capabilities but also its potential for harm. 
+                        While it provides significant benefits for ethical hacking and cybersecurity training, it also highlights the lack of preparedness in many organizations. 
+                        This duality serves as a reminder that <u>technological advancements require equally advanced ethical considerations</u>.
+                    </p>
+                    <p class="text">
+                        Moreover, it is evident that Google Dorking is not inherently harmful but becomes dangerous in the wrong hands. 
+                        By educating individuals and organizations about these techniques, we can ensure they are used constructively. 
+                        Transparency, proactive security, and ongoing education are the keys to minimizing risks while maximizing the benefits of tools like Google Dorking.
+                    </p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="page-section bg-light" id="references">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">References</h2>
+                    <p class="text-muted">Below are the references used throughout this website:</p>
+                </div>
+                <ul class="list-unstyled">
+                    <li class="mb-3">
+                        <a href="https://www.exploit-db.com/google-hacking-database" target="_blank">
+                            <strong>Google Hacking Database (GHDB)</strong>
+                        </a> - A comprehensive database of Google Dorks curated by Johnny Long.
+                    </li>
+                    <li class="mb-3">
+                        <a href="https://en.wikipedia.org/wiki/Google_hacking" target="_blank">
+                            <strong>Wikipedia - Google Hacking</strong>
+                        </a> - An overview of Google Dorking and its applications.
+                    </li>
+                    <li class="mb-3">
+                        <a href="https://www.recordedfuture.com/threat-intelligence-101/threat-analysis-techniques/google-dorks" target="_blank">
+                            <strong>Recorded Future - Google Dorks</strong>
+                        </a> - Google hacking techniques and commands.
+                    </li>
+                    <li class="mb-3">
+                        <a href="assets/GoogleHacking.pdf" target="_blank">
+                            <strong>Advanced Google Hacking - PDF</strong>
+                        </a> - The document provided, covering key techniques and methods.
+                    </li>
+                    <li class="mb-3">
+                        <a href="https://www.businessinsider.com/iran-used-google-in-cia-breach-that-led-to-dozens-dead-2018-11" target="_blank">
+                            <strong>Business Insider - Iranian attack</strong>
+                        </a> - Google hacking used by Iranians hackers in 2010.
+                    </li>
+                    
+                </ul>
+            </div>
+        </section>
+        
+
+        <!-- Footer-->
+        
+        
+        <footer class="footer py-4" style="background-color:whitesmoke;">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-lg-start">Copyright &copy; Advanced Google Hacking 2024</div>
+                    <div class="col-lg-4 my-3 my-lg-0 text-center">
+                        <p class="mb-0">
+                            <strong>Name:</strong> David Machuqueiro <br>
+                            <strong>Number:</strong> MOU0046 <br>
+                            <strong>Subject:</strong> Fundamentals of the Security in Communications
+                        </p>
+                    </div>
+                    <div class="col-lg-4 text-lg-end">
+                        <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
+                        <a class="link-dark text-decoration-none" href="#!">Terms of Use</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+       
+        <!-- Portfolio Modals-->
+        <!-- Portfolio item 1 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal">
+                        <img src="assets/img/close-icon.svg" alt="Close modal" />
+                    </div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Basic Operators</h2>
+                                    <p class="item-intro text-muted"><strong>Refine your Google search results</strong> with simple and effective operators.</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/methods/1.webp" style="width: 200px;" alt="Basic Operators" />
+                                    <p>
+                                        Basic operators are simple symbols or modifiers used to enhance search results. They include:
+                                    </p>
+                                    <ul class="list-inline">
+                                        <li>
+                                            <strong>" "</strong> - Double quotes: Search for <strong>exact phrases</strong>.
+                                        </li>
+                                        <li>
+                                            <strong>-</strong> - Minus: Exclude specific <strong>keywords</strong> or terms.
+                                        </li>
+                                        <li>
+                                            <strong>*</strong> - Asterisk: Placeholder for <strong>unknown terms</strong> in a query.
+                                        </li>
+                                        <li>
+                                            <strong>..</strong> - Number range: Search within a <strong>numerical range</strong> (e.g., 2010..2020).
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-sm text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <!-- Portfolio item 2 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal">
+                        <img src="assets/img/close-icon.svg" alt="Close modal" />
+                    </div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Advanced Operators</h2>
+                                    <p class="item-intro text-muted"><strong>Optimize your Google searches</strong> with powerful advanced operators.</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/methods/2.webp" style="width: 200px;" alt="Advanced Operators" />
+                                    <p>
+                                        Advanced operators allow you to perform highly refined and targeted searches. These include:
+                                    </p>
+                                    <ul class="list-inline">
+                                        <li>
+                                            <strong>filetype:</strong> - Search for specific file formats (e.g., PDFs, DOCs, or logs).
+                                        </li>
+                                        <li>
+                                            <strong>inurl:</strong> - Locate keywords within a URL.
+                                        </li>
+                                        <li>
+                                            <strong>intitle:</strong> - Search for keywords in a page title.
+                                        </li>
+                                        <li>
+                                            <strong>site:</strong> - Restrict searches to a specific domain or website.
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-sm text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Portfolio item 3 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal">
+                        <img src="assets/img/close-icon.svg" alt="Close modal" />
+                    </div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Combining Operators</h2>
+                                    <p class="item-intro text-muted"><strong>Take your Google searches further</strong> by combining multiple operators.</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/methods/3.webp" style="width: 200px;" alt="Combining Operators" />
+                                    <p>
+                                        One of the significant advantages of Google Dorks is the capability to meld operators for extremely precise search results. Google Dork operators like ‘site:’, ‘-‘, and ‘filetype:’ can be combined with keywords and other operators to target precise information. Examples include:
+                                    </p>
+                                    <ul class="list-inline">
+                                        <li>
+                                            <strong>Example 1:</strong> <span class="text-muted">intitle:"index of" inurl:backup filetype:zip</span> - Finds open directories containing backup files in ZIP format.
+                                        </li>
+                                        <li>
+                                            <strong>Example 2:</strong> <span class="text-muted">site:example.com filetype:pdf intext:"confidential"</span> - Searches for confidential PDFs within a specific domain.
+                                        </li>
+                                        <li>
+                                            <strong>Tip:</strong> Use combinations to target specific file types, titles, or URLs for more refined results.
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-sm text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+</html>

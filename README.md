@@ -31,7 +31,7 @@ Cybersecurity Analyst | Ethical Hacker
 # 📂 Final Clean Folder Structure (Professional)
 
 ```
-Cybersecurity-Ethical-Hacking-Notes/
+Ethical-Hacking-Notes/
 │
 ├── README.md
 │
@@ -41,7 +41,7 @@ Cybersecurity-Ethical-Hacking-Notes/
 │   ├── Kali_Linux/
 │   │   ├── README.md
 │   │   ├── ifconfig.md
-│   │   ├── LS_Command.md
+│   │   └── LS_Command.md
 │
 ├── 02_Footprinting_and_Reconnaissance/
 │   ├── README.md
@@ -49,11 +49,11 @@ Cybersecurity-Ethical-Hacking-Notes/
 │   ├── Passive_Reconnaissance/
 │   │   ├── README.md
 │   │   ├── Passive_Recon_Techniques.md
-│   │   ├── Passive_Recon_Kali.md
+│   │   └── Passive_Recon_Kali.md
 │   │
 │   ├── Active_Reconnaissance/
 │   │   ├── README.md
-│   │   ├── Active_Recon_Techniques.md
+│   │   └── Active_Recon_Techniques.md
 │   │
 │   ├── Tools/
 │   │   ├── Shodan/
@@ -92,14 +92,15 @@ Cybersecurity-Ethical-Hacking-Notes/
 │   │   │       └── FOCA_files_here
 │   │   │
 │   │   ├── OSRFramework/
-│   │   │   └── README.md
+│   │   │     ├── Whois & DNS Lookup.md
+│   │   │     └── README.md
 │   │   │
 │   │   ├── Whois/
 │   │   │   └── README.md
 │   │   │
 │   │   └── Wappalyzer/
 │   │       └── README.md
-│
+│    
 ├── 03_Scanning_Enumeration_and_Sniffing/
 │   ├── README.md
 │   │

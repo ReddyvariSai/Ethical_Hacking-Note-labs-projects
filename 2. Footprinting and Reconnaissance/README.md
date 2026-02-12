@@ -1,13 +1,5 @@
 
-
-<img width="983" height="642" alt="Screenshot 2026-01-18 114643" src="https://github.com/user-attachments/assets/e4917a18-77e8-49c0-a318-449117dbe4f9" />
-
-
-<img width="1019" height="492" alt="Screenshot 2026-01-18 114825" src="https://github.com/user-attachments/assets/b435bde5-6087-4dc8-a064-2ff0c12675c6" />
-
-
-
-<img width="1037" height="207" alt="image" src="https://github.com/user-attachments/assets/309e6d46-6938-459c-b12d-881d210a95b5" />
+<img width="1248" height="599" alt="image" src="https://github.com/user-attachments/assets/a8d07d32-1647-4bec-bf38-06052297a7a5" />
 
 
 # Active and Passive Reconnaissance Techniques

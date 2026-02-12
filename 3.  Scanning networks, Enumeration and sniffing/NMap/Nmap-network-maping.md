@@ -1,5 +1,5 @@
 
-# Nmap-network-maping-
+# Nmap-network-maping
 
 
 * Nmap, short for Network Mapper, is a free and open-source utility designed for network exploration and security auditing.

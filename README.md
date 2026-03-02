@@ -3,7 +3,7 @@
 This repository contains structured notes, tools, and practical documentation
 for learning **Cybersecurity and Ethical Hacking**.
 
-## 📌 Topics Covered
+### Ethical Hacking
 ------
 1. Linux & Kali Linux
 2. Footprinting & Reconnaissance
@@ -26,7 +26,7 @@ for learning **Cybersecurity and Ethical Hacking**.
 19. Cloud computing
 20. Cryptography
 --------
-### Penetration Testing Basics
+### Penetration Testing
 
 ## 🎯 Purpose
 
